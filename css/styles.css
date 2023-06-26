@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+    margin: 0;
+    justify-content: center;
+}
+
+#particles-js {
+    background: linear-gradient(0deg, #000, #0D1017);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#particles-js canvas{
+    position: absolute;
+    z-index: 1;
+}
+
+#particles-js .heroText {
+    font-family: 'JetBrains Mono', monospace;
+    color: #FCFCFC;
+    z-index: 2
+}
+
+a {color: #999}
+a:hover {color: #CCC}
+
+
+@media (min-width: 1000px) {
+  #particles-js .heroText {padding: 0 60px}
+}
+
+@media (min-height: 880px) {
+    #particles-js .heroText {font-size: 87.5%}
+}
